@@ -41,4 +41,6 @@ For the third stage, run:
 ```bash
 python run_threestage.py -k cpn_ft_h36m_dbb --stage 3 -lfd 512 -ft stage_2_best_model.bin -lr 0.0005 -e 80
 ```
+## Evaluating our models
 
+You can download our pre-trained models from [Google Drive](https://drive.google.com/drive/u/0/my-drive)
