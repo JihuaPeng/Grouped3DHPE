@@ -1,1 +1,13 @@
+# EHFusion: An efficient heterogeneous fusion model for group-based 3D human pose estimation
+
 This is the readme file for the code release of "EHFusion: An efficient heterogeneous fusion model for group-based 3D human pose estimation" on PyTorch platform.
+
+## Dependencies
+Make sure you have the following dependencies installed:
+* PyTorch >= 0.4.0
+* NumPy
+* Matplotlib=3.1.0
+
+## Dataset
+
+Our model is evaluated on [Human3.6M](http://vision.imar.ro/human3.6m) and [HumanEva-I](http://humaneva.is.tue.mpg.de/datasets_human_1)
