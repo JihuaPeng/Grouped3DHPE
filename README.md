@@ -65,5 +65,10 @@ To evaluate the three-stage model trained on the ground-truth 2D keypoints, run:
 python run_threestage.py -k gt --evaluate gt_three-stage_3_best_epoch.bin --stage 3 -lfd 256
 ```
 
+# Acknowledgement
+Our code refers to the following repositories.
+* [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
+* [Pose3D-RIE](https://github.com/paTRICK-swk/Pose3D-RIE)
 
+We thank the authors for releasing their codes. If you use our code, please consider citing their works as well.
 
