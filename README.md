@@ -17,3 +17,9 @@ We set up the Human3.6M dataset in the same way as [VideoPose3D](https://github.
 
 ### HumanEva-I
 We set up the HumanEva-I dataset in the same way as [VideoPose3D](https://github.com/facebookresearch/VideoPose3D/blob/master/DATASETS.md).
+
+## Training from scratch
+### One-stage strategy
+
+```bash
+python run_onestage.py -k gt --stage 1 -lfd 256
