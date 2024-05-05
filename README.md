@@ -22,4 +22,23 @@ We set up the HumanEva-I dataset in the same way as [VideoPose3D](https://github
 ### One-stage strategy
 
 ```bash
-python run_onestage.py -k gt --stage 1 -lfd 256
+python run_onestage.py -k cpn_ft_h36m_dbb --stage 1 -lfd 512 -e 80
+```
+### Three-stage strategy
+
+For the first stage, run:
+
+```bash
+python run_threestage.py -k cpn_ft_h36m_dbb --stage 1 -lfd 512 -e 80
+```
+
+For the second stage, run:
+```bash
+python run_threestage.py -k cpn_ft_h36m_dbb --stage 2 -lfd 512 -p stage_1_best_model.bin -e 80
+```
+
+For the third stage, run:
+```bash
+python run_threestage.py -k cpn_ft_h36m_dbb --stage 3 -lfd 512 -ft stage_2_best_model.bin -lr 0.0005 -e 80
+```
+
