@@ -43,4 +43,5 @@ python run_threestage.py -k cpn_ft_h36m_dbb --stage 3 -lfd 512 -ft stage_2_best_
 ```
 ## Evaluating our models
 
-You can download our pre-trained models from [Google Drive](https://drive.google.com/drive/u/0/my-drive)
+You can download our pre-trained models from [Google Drive](https://drive.google.com/drive/u/0/my-drive). Put `CPN/cpn_one-stage_best_epoch.bin`, `CPN/cpn_three-stage_3_best_epoch.bin`, `GT/gt_one-stage_best_epoch.bin` and `GT/gt_three-stage_3_best_epoch.bin` in the `./checkpoint` directory. Both of the models are trained on Human3.6M dataset.
+
