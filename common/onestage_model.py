@@ -326,7 +326,7 @@ class One_Stage_Model(nn.Module):
     def __init__(self, num_joints_in, in_features, num_joints_out,
                  filter_widths, causal=False, dropout=0.2, latten_features=256,
                  channels=1024, dense=False, is_train=True, Optimize1f=True, stage=1):
-        super(One_Stage_RIEModel, self).__init__()
+        super(One_Stage_Model, self).__init__()
         """
         Initialize this model.
 
