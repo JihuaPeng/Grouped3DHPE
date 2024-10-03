@@ -6,7 +6,7 @@ This is the readme file for the code release of "EHFusion: An efficient heteroge
 Make sure you have the following dependencies installed:
 * Ubuntu 20.04
 * CUDA 11.2
-* Python 3.7
+* Python 3.7.13
 * PyTorch 1.8.1
 * Matplotlib=3.1.0
 
