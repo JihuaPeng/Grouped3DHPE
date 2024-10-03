@@ -9,6 +9,7 @@ Make sure you have the following dependencies installed:
 * Python 3.7.13
 * PyTorch 1.8.1
 * Matplotlib=3.1.0
+
 You can create the environment as follows:
 pip install -r requirements.txt
 
