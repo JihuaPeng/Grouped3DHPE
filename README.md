@@ -11,8 +11,9 @@ Make sure you have the following dependencies installed:
 * Matplotlib=3.1.0
 
 You can create the environment as follows:
+```bash
 pip install -r requirements.txt
-
+```
 
 ## Dataset
 
