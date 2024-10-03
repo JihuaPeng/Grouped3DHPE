@@ -4,7 +4,8 @@ This is the readme file for the code release of "EHFusion: An efficient heteroge
 
 ## Dependencies
 Make sure you have the following dependencies installed:
-* PyTorch >= 0.4.0
+* Ubuntu 20.04
+* PyTorch = 1.8.1
 * NumPy
 * Matplotlib=3.1.0
 
