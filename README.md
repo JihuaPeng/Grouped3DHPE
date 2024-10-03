@@ -8,7 +8,6 @@ Make sure you have the following dependencies installed:
 * CUDA 11.2
 * Python 3.7
 * PyTorch 1.8.1
-* NumPy
 * Matplotlib=3.1.0
 
 ## Dataset
