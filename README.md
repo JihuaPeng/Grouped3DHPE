@@ -77,5 +77,5 @@ Our code refers to the following repositories.
 * [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
 * [Pose3D-RIE](https://github.com/paTRICK-swk/Pose3D-RIE)
 
-We thank the authors for releasing their codes. If you use our code, please consider citing their works as well.
+We thank the authors for releasing their codes. If you use our code, please consider citing our paper as well.
 
